@@ -1,6 +1,6 @@
 def mass(userPPM):
     ppm = float(userPPM)
-    vol = float(input('Volume: '))
+    vol = float(input('Volume (ml): '))
     mass = (ppm*vol)/1000
     return mass
 
