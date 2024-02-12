@@ -16,4 +16,4 @@ def calculatePPM():
 
 if __name__ == "__main__":
     ppmcalc = calculatePPM()
-    print(ppmcalc)
+    print(str(ppmcalc) + ' gm' )
